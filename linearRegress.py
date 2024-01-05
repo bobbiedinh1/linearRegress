@@ -57,3 +57,11 @@ axes[1].set_ylabel('Salary')
 # Adjust layout and display the plots
 plt.tight_layout()
 plt.show()
+
+#predict salary of emplyee with 12 years exp
+print(regressor.predict([[12]]))
+
+#to get the linear regression equation
+print(regressor.coef_)
+print(regressor.intercept_)
+# == Salary = 9345.94(Years Exp) + 26816.19 y=mx+b
